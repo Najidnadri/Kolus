@@ -1,0 +1,107 @@
+:root {
+  --primary-color: #E8B12D;
+  --secondary-color: #4F4E28;
+  --third-color: #FBDD9D;
+  --forth-color: #925F17;
+  --fifth-color: #E9BF59;
+
+  --white: #eaeaea;
+  --black: #303030;
+  --blue: rgb(49, 49, 240);
+  --red: rgb(243, 59, 59);
+  --green: rgb(74, 243, 59);
+
+  --success: rgb(52, 201, 39);
+} 
+
+
+@media (prefers-color-scheme: dark) {
+:root {
+  --primary-color: #E8B12D;
+  --secondary-color: #4F4E28;
+  --third-color: #FBDD9D;
+  --forth-color: #925F17;
+  --fifth-color: #E9BF59;
+
+  --white: #eaeaea;
+  --black: #303030;
+  --blue: rgb(49, 49, 240);
+  --red: rgb(243, 59, 59);
+  --green: rgb(74, 243, 59);
+
+  --success: rgb(52, 201, 39);
+}
+}
+
+@media (prefers-color-scheme: light) {
+:root {
+  --primary-color: #E8B12D;
+  --secondary-color: #4F4E28;
+  --third-color: #FBDD9D;
+  --forth-color: #925F17;
+  --fifth-color: #E9BF59;
+
+  --white: #eaeaea;
+  --black: #303030;
+  --blue: rgb(49, 49, 240);
+  --red: rgb(243, 59, 59);
+  --green: rgb(74, 243, 59);
+
+  --success: rgb(52, 201, 39);
+}
+}
+
+
+
+
+:root {
+    /*1rem = 10px*/
+    font-size: 62.5%; 
+}
+  
+@font-face {
+  font-family: "Epilogue";
+  src: url("../fonts/Epilogue-regular.ttf");
+  font-weight: 125 950;
+  font-style: normal;
+  font-stretch: 75% 125%;
+  font-display: swap;
+} 
+
+@font-face {
+  font-family: "Epilogue";
+  src: url("../fonts/Epilogue-italic.ttf");
+  font-weight: 125 950;
+  font-style: italic;
+  font-stretch: 75% 125%;
+  font-display: swap;
+} 
+
+@font-face {
+  font-family: "CrimsonPro";
+  src: url("../fonts/CrimsonPro-regular.ttf");
+  font-weight: 125 950;
+  font-style: normal;
+  font-stretch: 75% 125%;
+  font-display: swap;
+} 
+
+@font-face {
+  font-family: "Epilogue";
+  src: url("../fonts/CrimsonPro-italic.ttf");
+  font-weight: 125 950;
+  font-style: italic;
+  font-stretch: 75% 125%;
+  font-display: swap;
+} 
+
+@font-face {
+  font-family: "Oswald";
+  src: url("../fonts/Oswald.ttf");
+  font-weight: 125 950;
+  font-style: normal;
+  font-stretch: 75% 125%;
+  font-display: swap;
+} 
+  
+  
